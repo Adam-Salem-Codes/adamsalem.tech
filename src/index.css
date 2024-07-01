@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  transition-duration: 200ms;
+}
+
+.display-none {
+  @apply hidden;
+}
+
+.ace_editor {
+  @apply bg-[#0E151A] w-[25vw] h-[20vh] max-sm:w-[75vw] text-2xl max-sm:text-sm max-md:text-base rounded-lg !important;
+}
+.ace_gutter,
+.ace_gutter-active-line {
+  @apply bg-[#0E151A] rounded-lg !important;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
